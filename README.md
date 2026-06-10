@@ -47,5 +47,3 @@ A Moodle **local plugin** that turns selected courses into a public, self-servic
 ## License
 
 This plugin is licensed under the [GNU GPL v3 or later](http://www.gnu.org/copyleft/gpl.html).
-
-© 2026 Wellingtone
