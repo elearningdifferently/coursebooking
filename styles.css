@@ -1,0 +1,61 @@
+/* Course Booking plugin styles. */
+
+.local-coursebooking-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.local-coursebooking-intro {
+    margin-bottom: 2rem;
+}
+
+.local-coursebooking-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.local-coursebooking-card {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.local-coursebooking-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.local-coursebooking-card .card-title {
+    font-weight: 600;
+}
+
+.local-coursebooking-price {
+    color: #0f6cbf;
+    font-weight: 700;
+}
+
+.local-coursebooking-date {
+    font-size: 0.9rem;
+}
+
+.local-coursebooking-summary {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.local-coursebooking-subheading {
+    margin: 1.5rem 0 0.75rem;
+    font-weight: 600;
+}
+
+/* Hide the anti-bot honeypot field robustly. */
+#fitem_id_website,
+#fgroup_id_website {
+    position: absolute !important;
+    left: -9999px !important;
+    height: 0;
+    overflow: hidden;
+}
